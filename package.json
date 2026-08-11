@@ -1,0 +1,20 @@
+{
+  "name": "test-data-generator",
+  "version": "1.0.0",
+  "description": "Generate synthetic test data for development",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "generate": "ts-node src/cli.ts",
+    "generate:js": "node dist/cli.js"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "faker": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
